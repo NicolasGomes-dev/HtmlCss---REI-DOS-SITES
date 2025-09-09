@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    height:100%;
+    width: 100%;
+}
+body::-webkit-scrollbar{
+    display:none
+}
+
+#main{
+    width:100%;
+    height:100vh;
+    background: orangered
+}
+
+.nav-menu{
+    position:fixed;
+    display:flex; 
+    align-items:center;
+    justify-content:space-between;
+    width: 100%;
+    height:10vh;
+    z-index: 99;
+    background: red;
+
+}

@@ -61,9 +61,11 @@ body::-webkit-scrollbar{
 }
 
 .hero h1{
-
-    font: size 25px;
+    position:absolute;
+    font-size: 25vw;
     color:#fff;
+    left: 13%;
+    
 }
 
 #fanta{
@@ -81,14 +83,6 @@ body::-webkit-scrollbar{
     z-index: 2;
 }
 
-#folha3{
-    position:absolute;
-    width: 20%;
-    top:10%;
-    left:1200px;
-    z-index: 2;
-}
-
 #laranja{
     position:absolute;
     width:28%;
@@ -98,6 +92,36 @@ body::-webkit-scrollbar{
     top:350px;
 }
 
+#folha{
+    top:10%;
+    left:0%;
+    width: 18%;
+    transform:rotate(170deg);
+    position:absolute;
+
+}
+
+#folha2{
+    position: absolute;
+    top: 63%;
+    width: 12%;
+    left: 80%;
+    transform: rotate(-60deg);
+
+}
+
+#folha3{
+    position: absolute;
+    width: 20%;
+    top: 10%;
+    right: 0%;
+}
+
 .hero{
-    width:50px;
+    width:50px;  
+}
+
+.hero h1{
+    position:absolute;
+
 }

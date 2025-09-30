@@ -140,7 +140,8 @@ body {
     background: #4d231c;
 }
 
-.left-side, .right-side{
+.left-side, 
+.right-side{
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -166,4 +167,17 @@ body {
     font-size: 1vw;
     width: 80%;
     
+}
+
+/*Estilizando a terceira sessão*/
+.three{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(150deg, rgb(210, 145, 33), rgb(244, 7, 7));
+}
+
+.three img{
+    width: 50px;
 }

@@ -218,8 +218,8 @@ body {
 
 #pepsi{
     position: absolute;
-    top: -60%;
-    width: 20%;
+    top: -20%;
+    width: 148%;
     left:50%;
     transform:translate(-50%,0%);
     

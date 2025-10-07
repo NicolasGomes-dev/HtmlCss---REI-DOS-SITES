@@ -175,9 +175,60 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
+    gap:5vh;
     background: linear-gradient(150deg, rgb(210, 145, 33), rgb(244, 7, 7));
 }
 
-.three img{
-    width: 50px;
+.card{
+    position:relative;
+    display: flex;
+    background: white;
+    align-items: center;
+    justify-content: center;
+    width: 25vw;
+    flex-direction: column;
+    gap: 2vh;
+    height: 70vh;
+    margin-top: 10vh;
+    border-radius: 20px;
+}
+
+.card h3{
+    margin-top: 40vh;
+    font-size: 3vw;
+    color: black;
+}
+
+.card button{
+    font-size: 1vw;
+    border-radius: 50px;
+    border:none;
+    background-color: rgb(255,149,0);
+    color: #fff;
+    padding:1vw 2vw;
+}
+
+#cocacola{
+    position:absolute;
+    top: -15%;
+    width: 145%;
+    left:50%;
+    transform:translate(-50%,0%);
+}
+
+#pepsi{
+    position: absolute;
+    top: -60%;
+    width: 20%;
+    left:50%;
+    transform:translate(-50%,0%);
+    
+}
+
+.lemon{
+    position:absolute;
+    top:-30%;
+    left: 50px;
+    width: 18vw;
+    transform: translate(-50%,0%);
 }

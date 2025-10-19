@@ -38,15 +38,15 @@ body::-webkit-scrollbar{
 .nav-menu{
     display: flex;
     gap: 50px;
+
 }
 
-
 .nav-conteiner{
-    position:fixed;
-    display:flex; 
+    position:absolute;;
+    display: flex; 
     align-items:center;
     justify-content:space-between;
-    width: 100%;
+    width: 60%;
     height:10vh;
     z-index: 99;
 
@@ -91,7 +91,7 @@ body {
 
 #laranja-fatiada{ 
     position:absolute;
-    top: -5%;
+    top: 4%;
     width: 17%;
     left:33%; 
     z-index: 2; 
@@ -101,7 +101,7 @@ body {
     position:absolute;
     width:36%;
     top:10%;
-    left:650px;
+    left:760px;
     z-index:2;
     top:350px;
 }

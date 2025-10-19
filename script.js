@@ -68,7 +68,7 @@ var tl2 =gsap.timeline({
     },
 });
 
-// Definindo a animação dos elementos com a timeline
+// Definindo a animação dos elementos com a timeline tl2
 tl2.from(
     'lemon1',
     {
@@ -110,5 +110,26 @@ tl2.from(
     },
     'ca'
 )
+
+tl2.to(
+    '#laranja-fatiada',
+    {
+        width: '18%',
+        left: '41%',
+        top: '197%',
+    },
+    'ca'
+);
+
+
+tl2.to(
+    '#fanta',
+    {
+        width: '26%',
+        left: '37%',
+        top: '208%',
+    },
+    'ca'
+);
 
 

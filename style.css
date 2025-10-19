@@ -89,15 +89,15 @@ body {
     z-index: 2;
 }
 
-#laranja-fatiada{
+#laranja-fatiada{ 
     position:absolute;
-    top:5%;
+    top: -5%;
     width: 17%;
-    left:35%;
-    z-index: 2;
+    left:33%; 
+    z-index: 2; 
 }
 
-#laranja{
+#laranja{ 
     position:absolute;
     width:36%;
     top:10%;
@@ -210,7 +210,7 @@ body {
 
 #cocacola{
     position:absolute;
-    top: -15%;
+    top: -22%;
     width: 145%;
     left:50%;
     transform:translate(-50%,0%);
@@ -218,7 +218,7 @@ body {
 
 #pepsi{
     position: absolute;
-    top: -20%;
+    top: -30%;
     width: 148%;
     left:50%;
     transform:translate(-50%,0%);
@@ -228,7 +228,7 @@ body {
 .lemon{
     position:absolute;
     top:-30%;
-    left: 50px;
+    left: 210px;
     width: 18vw;
     transform: translate(-50%,0%);
 }

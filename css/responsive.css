@@ -1,0 +1,16 @@
+/*Descrição: Estilos de responsividade do site. */
+
+/* Tablets (até 1024px)*/
+@media (max-width:1024px) {
+    header {
+        padding: 15px 30px;
+    }
+}
+
+nav ul {
+    gap: 20px;
+}
+
+.contanier {
+    padding: 20px;
+}
